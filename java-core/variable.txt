@@ -1,0 +1,36 @@
+\n: xuống dòng
+\": sử dụng dấu nháy kép
+\t: lùi vào 1 tab
+
+Các kiểu dữ liệu:
+1. Kiểu cơ sở:
+- Kiểu luận lí: boolean - Boolean
+- Kiểu kí tự: char - Char
+- Kiểu số : 
+    + Kiểu số nguyên: 
+        byte: 8bit - Wrapper Class: Byte
+        short: 16bit - short
+        int: 32bit - Integer
+        long: 64bit - Long
+    + Kiểu số thực:
+        float: 32bit - FLoat
+        double: 64bit - Double
+- Ngoài ra còn có String là lưu chuỗi kí tự
+Lưu ý mỗi kiểu dữ liệu sẽ có vùng nhớ khác nhau. Khi giá trị gán vuợt quá giới hạn vùng nhớ nó sẽ bị tràn và quay ngược lại tính từ giá trị nhỏ nhất trong vùng nhớ
+VD vùng nhớ của int sẽ là [-2147483648, -2147483647]; 
+
+Khai báo biến:
+int: int a = 5;
+char: char c = 'c';
+short: short b = 1;
+long: long d = 37491913848393931L;
+double: double a = 3.24;
+float: float b = 4.24f;
+
+Khai báo 1 biến constance:
+final float PI = 3.14
+
+
+Phân biệt a++ và ++a:
+VD: int b = ++a. Ở đây sẽ tăng a lên 1 đơn vị rồi mới gán cho b.
+int b = a++. Ở đây sẽ gán a cho b rồi mới tăng a.

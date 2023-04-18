@@ -1,0 +1,43 @@
+If-else:
+if(dieukien) {
+
+} else if(dieukien) {
+
+} else{ 
+
+}
+
+Switch-case:
+
+Switch(dieukien) {
+    case 1:
+        //code
+        break;
+    case 2:
+        //code
+        break;
+    case 3:
+        //code
+        break;
+    default:
+        break;
+    
+}
+
+Switch(dieukien) {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+        //code
+        break;
+    case 5:
+    case 6:
+    case 7:
+        //code
+        break;
+    default:
+        //code
+        break;
+    
+}

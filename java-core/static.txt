@@ -1,0 +1,5 @@
+static vs non-static:
+phương thức static là phương thức dành cho class còn non-static là phương thức dành cho object
+phương thức static không tham chiếu đến this còn phương thức non-static có tham chiếu đến this.
+phương thức static không thể  truy cập tới các biến và các phương thức non-static. Còn phương thức non-static có thể
+truy cập đến các phương thức static và các biến

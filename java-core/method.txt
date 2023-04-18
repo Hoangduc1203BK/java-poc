@@ -1,0 +1,2 @@
+Một số phương thức của lớp String:length, charAt, subString, replace, trim, split, concat, startWiths, endWiths
+Một số phương thức của Array: length, clone, equals, hashCode, fill, asList, sort, copyOf, binarySearch
