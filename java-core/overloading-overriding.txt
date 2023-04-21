@@ -1,0 +1,6 @@
+Overloading: Nạp chồng phương thức là việc xảy ra trong 1 class khi có nhiều phương thức cùng tên nhưng logic khác nhau.
+Có 2 kiểu nạp chồng: Thay đổi số lượng các tham số  và thay đổi kiểu dữ liệu các tham số
+
+
+Overriding: Ghi đè phương thức: là khi lớp cha và lớp con có cùng tên phương thức. Khi đó ở phương thức ở lớp con muốn khai báo ghi đè phải có cùng tham số giống lớp cha
+Overriding không sử dụng được cho phương thức static vì phương thức static ràng buộc với class còn phương thức non-static ràng buộc với instance.

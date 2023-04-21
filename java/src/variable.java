@@ -1,16 +1,36 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class variable {
-    public void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
-        int[] arr2 = {1, 2, 3, 4, 5};
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<String>(List.of("abc", "efabcd", "abcde", "aab"));
+        String pattern = "ab";
+        ArrayList<String> result = findStrArr(list, pattern);
+        ArrayList<String> result2 = checkStringContainPattern(list, pattern);
     }
 
-    private String[] findStr(String[] strArr, String pattern ) {
-     String[] strs = new String[strArr.length];
+    public static ArrayList<String> findStrArr(ArrayList<String> strArr, String pattern) {
+        ArrayList<String> result = new ArrayList<String>();
+        for(String s: strArr) {
+            if(s.startsWith(pattern)) {
+                result.add(s);
+            }
+        }
 
+        return result;
     }
 
+    public static ArrayList<String> checkStringContainPattern(ArrayList<String> strArr, String pattern) {
+        ArrayList<String> result = new ArrayList<String>();
+        for(String s: strArr) {
+            if(s.contains(pattern)) {
+                System.out.println(s);
+                result.add(s);
+            }
+        }
 
+        return result;
+    }
 }

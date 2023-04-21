@@ -34,3 +34,5 @@ final float PI = 3.14
 Phân biệt a++ và ++a:
 VD: int b = ++a. Ở đây sẽ tăng a lên 1 đơn vị rồi mới gán cho b.
 int b = a++. Ở đây sẽ gán a cho b rồi mới tăng a.
+
+Các biến dạng Wrapper Class là kiểu tham trị

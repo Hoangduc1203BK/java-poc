@@ -1,0 +1,5 @@
+treeset lưu trữ dữ liệu duy nhất theo thứ tự
+treeset không chứa giá trị null
+treeset lưu trữ dữ liệu tăng dần
+Tốc độ tìm kiểm của treeset là O(logN)
+Tốc độ duyệt của treeset nhanh hơn hashset vì nó có thứ tự sắp xếp

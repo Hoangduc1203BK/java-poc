@@ -1,0 +1,9 @@
+Có 2 loại collection: arraylist và hashmap
+- arraylist là dạng array có kích thước thay đổi được. Arraylist có một số phương thức: size, add, addAll(arr), removeAll(arr), get, remove(int index), remove(Integer.valueOf(value)),retainAll(arr) set(index, element), contains(), Collections.sort(), Collections.reverse(), List.isEmpty(), clear(), indexOf(), lastIndexOf(),
+
+- arrayList là kiểu tham chiếu
+
+- ArrayList nếu xóa 1 phần tử thì sẽ thao tác chậm vì các phần tử phải dịch chuyển để điền vào chỗ trống. Trong trường hợp kích thước lớn thì sẽ gây hiệu suất thấp.
+Khi đó có thể sử dụng LinkedList. LinkedList thao tác thêm hoặc xóa phần tử nhanh hơn ArrayList nhưng khả năng truy cập ngẫu nhiên lại không bằng ArrayList do phải duyệt từ đầu. Hơn nữa lưu trữ LinkedList tốn nhiều bộ nhớ hơn do phải lưu trữ các liên kết giữa các node
+
+- ArrayList là bất đồng bộ, nếu có nhiều luồng cùng thao tác vào cùng 1 arrayList sẽ gây ra hiện tượng race condition. Để giải quyết có thể sử dụng Vector thay cho arrayList

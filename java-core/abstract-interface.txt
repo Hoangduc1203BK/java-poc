@@ -1,0 +1,12 @@
+Abstract class and abstract method:
+-Có từ khóa abstract
+- abstract method chỉ khai báo chứ không thực hiện.
+- abstract class không cần thiết phải có đủ hết tất cả các method là abstract, vẫn có thể có phương thức cụ thể
+- 1 phương thức abstract phải được khai báo và thực hiện lại ở class con.
+- abstract class có thể có constructor có tham số  nhưng constructor mặc định luôn được khai báo trong abstract class
+
+Interface như một bản thiết kế gồm các biến (các biến này là public, static và final-không đổi) và các abstract method và default class. Khi class implement interface, sẽ phải định nghĩa các method của interface đó.
+- Interface không có constructor
+- Mếu class implement interface mà không viết phần thân của các method trong interface đó thì đó phải là abstract class.
+- Các interface có thể kế thừa nhau
+- Có thể  thực hiện implement nhiều interface nhưng chỉ kế thừa được 1 class

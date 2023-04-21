@@ -1,0 +1,20 @@
+Hash map triển khai dựa trên map, lưu dữ liệu dạng key-value.
+Các key của hashmap là unique và chỉ có 1 key là null và nhiều value có thể là null.
+Hashmap lưu trữ không theo thứ tự (vị trí lưu trữ được xác định bằng hashcode của key). Nếu muốn lưu trữ theo thứ tự có thể sử dụng LinkedHashMap
+Hashmap là bất đồng bộ
+
+
+Một số phương thức của hashmap;
+clear(): xóa các phần tử của hashmap
+clone(): trả về bản copy của hashmap
+containKey(key): trả về true nếu cồn tại key
+containValue(val): trả về true nếu tồn tại val
+entrySet(): trả về collection chứa các phần tử trong hash
+get(key): trả về value của key
+keySet(): trả về  1 Set chứa các key của hashmap
+put(key, value): thêm 1 cặp key-value vào hashmap. nếu trùng key sẽ cập nhật value
+putAll(map): sao chép các phần tử của map vào hashmap
+size(): Trả về số phần tử của hashmap
+entrySet(): Trả về toàn bộ key và value của hashmap
+replace(key, value): thay đổi giá trị của key
+replaceAll((k,v) -> value): thay đổi toàn bộ giá trị của các key trong hashmap

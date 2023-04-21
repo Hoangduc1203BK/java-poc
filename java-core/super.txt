@@ -1,0 +1,17 @@
+*) this
+từ khóa this để chỉ đến đối tượng được khởi tạo của lớp hiện tại
+this dùng để chỉ đến constuctor của lớp
+this dùng để gọi đến phương thức của lớp
+this dùng để truyền như một tham số của phương thức hoặc constructor
+this dùng để turn về instance hiện tại
+
+
+*) super:
+từ khóa super tham chiếu đến đối tượng của lớp cha gần nhất
+Khi tạo ra 1 instance của lớp con, 1 instance của lớp cha ngầm định được tạo ra và biến super tham chiếu đến
+Cách sử dụng:
+- super sử dụng để tham chiếu đến instance của lớp cha gần nhất
+- super được sử dụng để gọi trực tiếp đến constructor của lớp cha
+- super được sử dụng để gọi trực tiếp đến phương thức của lớp cha. Sử dụng trong trường hợp lớp con và lớp cha có cùng tên phương thức. Khi đấy nếu muốn gọi đến phương thức của lớp cha phải sử dụng từ khóa super vì nếu ko dùng
+thì sẽ ưu tiên gọi phương thức đó ở lớp con trước. Nếu ko trùng tên phương thức thì ko cần dùng super
+

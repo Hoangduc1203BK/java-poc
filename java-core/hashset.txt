@@ -1,0 +1,20 @@
+Hashset là lưu trữ tập hợp các giá trị duy nhất theo cơ chế hashing.
+Hashset cho phép giá trị null và không đồng bộ
+Hashset không duy trì thứ thực
+Hashset là cách tốt nhất để tìm kiếm phần tử
+
+Các phương thức của hashset
+-add(element): thêm phần tử vào set
+- clear(): xóa tòan bộ phần tử của set
+- clone(): tạo một bản sao của hashset
+- contains(e): trả về true nếu chứa phần tử chỉ định
+- equals(object): so sánh đối tượng được chỉ định với hashset
+- isEmpty: check hashset trống
+- remove(e): xóa phần tư khỏi hashset
+- size(): trả về kích cỡ hashset
+- toArray(): trả về mảng chứa các phần tử của hashset
+
+
+-List lưu trữ các phần tử theo thứ tư còn set lưu trữ không theo thứ tự. 
+- Tốc độ tìm kiếm của set (O(n) hoặc O(logn)) nhanh hơn list (O(n))
+- Thao tác thêm, sửa, xóa với List dễ hơn
